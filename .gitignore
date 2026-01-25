@@ -1,0 +1,9 @@
+# Node modules
+node_modules/
+
+# ملفات البيئة لو موجودة
+.env
+
+# ملفات Parcel cache
+.cache/
+dist/

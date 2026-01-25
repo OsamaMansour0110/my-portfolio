@@ -1,0 +1,18 @@
+17
+44D:\GIThup projects\my-portfolio\package.json134138167408186336 0
+36D:\GIThup projects\my-portfolio\dist134138169567169578 1
+42D:\GIThup projects\my-portfolio\.gitignore134138167559292483 0
+42D:\GIThup projects\my-portfolio\index.html134137562392995171 0
+44D:\GIThup projects\my-portfolio\netlify.toml134137562936222566 0
+41D:\GIThup projects\my-portfolio\script.js134137562862079560 0
+49D:\GIThup projects\my-portfolio\package-lock.json134138167193922605 0
+41D:\GIThup projects\my-portfolio\style.css134137562736161021 0
+44D:\GIThup projects\my-portfolio\node_modules134138168572725378 1
+41D:\GIThup projects\my-portfolio\README.md134137563045782018 0
+47D:\GIThup projects\my-portfolio\dist\index.html134138169566869565 0
+61D:\GIThup projects\my-portfolio\dist\my-portfolio.3464ddca.js134138169566909605 0
+65D:\GIThup projects\my-portfolio\dist\my-portfolio.3464ddca.js.map134138169567049567 0
+62D:\GIThup projects\my-portfolio\dist\my-portfolio.3a01df49.css134138169567119645 0
+66D:\GIThup projects\my-portfolio\dist\my-portfolio.3a01df49.css.map134138169567159663 0
+61D:\GIThup projects\my-portfolio\dist\my-portfolio.672d4772.js134138169566909605 0
+65D:\GIThup projects\my-portfolio\dist\my-portfolio.672d4772.js.map134138169567049567 0

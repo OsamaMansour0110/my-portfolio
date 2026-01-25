@@ -1,0 +1,19 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "This is a fun, \"bouncy\" portfolio template designed to make people smile.",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "author": "osama ahmed",
+  "license": "ISC",
+  "dependencies": {
+    "core-js": "3.41.0",
+    "fractional": "1.0.0",
+    "regenerator-runtime": "0.14.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.16.3"
+  }
+}
