@@ -3,6 +3,8 @@ node_modules/
 
 # ملفات البيئة لو موجودة
 .env
+.parcel-cache/
+
 
 # ملفات Parcel cache
 .cache/
