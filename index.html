@@ -1,165 +1,206 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio | Creative Developer</title>
-    <meta name="description" content="Portfolio of a creative developer passionate about building spicy web experiences.">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-</head>
-<body>
-
+    <meta
+      name="description"
+      content="Portfolio of a creative developer passionate about building spicy web experiences."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
     <div class="cursor-dot" data-cursor-dot></div>
     <div class="cursor-outline" data-cursor-outline></div>
 
     <nav class="navbar">
-        <div class="logo">PORTFOLIO<span class="accent">.</span></div>
-        <ul class="nav-links">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact" class="btn-primary">Let's Talk</a></li>
-        </ul>
-        <div class="hamburger">
-            <div class="bar"></div>
-            <div class="bar"></div>
-            <div class="bar"></div>
-        </div>
+      <div class="logo">PORTFOLIO<span class="accent">.</span></div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact" class="btn-primary">Let's Talk</a></li>
+      </ul>
+      <div class="hamburger">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
     </nav>
 
     <header id="home" class="hero">
-        <div class="hero-content">
-            <h1 class="hero-title">Building <span class="gradient-text">Spicy</span> <br> Digital Experiences</h1>
-            <p class="hero-subtitle">I turn concepts into high-quality, interactive web applications.</p>
-            <div class="hero-buttons">
-                <a href="#projects" class="btn-primary">View Projects</a>
-                <a href="#contact" class="btn-secondary">Contact Me</a>
-            </div>
+      <div class="hero-content">
+        <h1 class="hero-title">
+          Software Engineer specialized in
+          <span class="gradient-text">MERN Stack and Android Development</span>
+          <br />
+          building scalable web and mobile applications
+          <br />
+          with clean architecture and great user experience
+        </h1>
+        <p class="hero-subtitle">
+          I focus on writing maintainable code, delivering smooth user
+          interfaces, and building products that scale.
+        </p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn-primary">View Projects</a>
+          <a href="#contact" class="btn-secondary">Contact Me</a>
         </div>
-        <div class="hero-decoration">
-            <div class="circle circle-1"></div>
-            <div class="circle circle-2"></div>
-        </div>
+      </div>
+      <div class="hero-decoration">
+        <div class="circle circle-1"></div>
+        <div class="circle circle-2"></div>
+      </div>
     </header>
 
     <section id="projects" class="projects-section">
-        <div class="container">
-            <h2 class="section-title">Selected <span class="accent">Projects</span></h2>
-            <div class="projects-grid">
-                <!-- Project 1 -->
-                <div class="project-card reveal">
-                    <div class="project-image">
-                        <div class="image-placeholder gradient-1"></div>
-                    </div>
-                    <div class="project-info">
-                        <h3>Neon Dashboard</h3>
-                        <p>A futuristic analytics dashboard with real-time data visualization.</p>
-                        <div class="tech-stack">
-                            <span>React</span>
-                            <span>D3.js</span>
-                            <span>Glassmorphism</span>
-                        </div>
-                        <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> View Live</a>
-                    </div>
-                </div>
-
-                <!-- Project 2 -->
-                <div class="project-card reveal">
-                    <div class="project-image">
-                        <div class="image-placeholder gradient-2"></div>
-                    </div>
-                    <div class="project-info">
-                        <h3>E-Commerce Spicy</h3>
-                        <p>Modern e-commerce platform with spicy micro-interactions.</p>
-                        <div class="tech-stack">
-                            <span>Vue.js</span>
-                            <span>Stripe</span>
-                            <span>Node.js</span>
-                        </div>
-                        <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> View Live</a>
-                    </div>
-                </div>
-
-                <!-- Project 3 -->
-                <div class="project-card reveal">
-                    <div class="project-image">
-                        <div class="image-placeholder gradient-3"></div>
-                    </div>
-                    <div class="project-info">
-                        <h3>Portfolio V1</h3>
-                        <p>The first iteration of my personal brand website.</p>
-                        <div class="tech-stack">
-                            <span>HTML5</span>
-                            <span>SCSS</span>
-                            <span>GSAP</span>
-                        </div>
-                        <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i> View Live</a>
-                    </div>
-                </div>
+      <div class="container">
+        <h2 class="section-title">
+          Selected <span class="accent">Projects</span>
+        </h2>
+        <div class="projects-grid">
+          <!-- Project 1 -->
+          <div class="project-card reveal">
+            <div class="project-image">
+              <div class="image-placeholder gradient-1"></div>
             </div>
+            <div class="project-info">
+              <h3>Neon Dashboard</h3>
+              <p>
+                A futuristic analytics dashboard with real-time data
+                visualization.
+              </p>
+              <div class="tech-stack">
+                <span>React</span>
+                <span>D3.js</span>
+                <span>Glassmorphism</span>
+              </div>
+              <a href="#" class="project-link"
+                ><i class="fas fa-external-link-alt"></i> View Live</a
+              >
+            </div>
+          </div>
+
+          <!-- Project 2 -->
+          <div class="project-card reveal">
+            <div class="project-image">
+              <div class="image-placeholder gradient-2"></div>
+            </div>
+            <div class="project-info">
+              <h3>E-Commerce Spicy</h3>
+              <p>Modern e-commerce platform with spicy micro-interactions.</p>
+              <div class="tech-stack">
+                <span>Vue.js</span>
+                <span>Stripe</span>
+                <span>Node.js</span>
+              </div>
+              <a href="#" class="project-link"
+                ><i class="fas fa-external-link-alt"></i> View Live</a
+              >
+            </div>
+          </div>
+
+          <!-- Project 3 -->
+          <div class="project-card reveal">
+            <div class="project-image">
+              <div class="image-placeholder gradient-3"></div>
+            </div>
+            <div class="project-info">
+              <h3>Portfolio V1</h3>
+              <p>The first iteration of my personal brand website.</p>
+              <div class="tech-stack">
+                <span>HTML5</span>
+                <span>SCSS</span>
+                <span>GSAP</span>
+              </div>
+              <a href="#" class="project-link"
+                ><i class="fas fa-external-link-alt"></i> View Live</a
+              >
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <section id="about" class="about-section">
-        <div class="container">
-            <div class="about-content reveal">
-                <h2 class="section-title">About <span class="accent">Me</span></h2>
-                <div class="about-text">
-                    <p>I am a passionate developer who loves to create "spicy" websites. I believe that web design should not just be functional, but also an experience. I focus on smooth animations, accessible design, and performant code.</p>
-                    <p>When I'm not coding, I'm probably exploring new design trends or optimizing my workflow.</p>
-                </div>
-                <div class="skills-grid">
-                    <div class="skill-item"><i class="fab fa-html5"></i> HTML5</div>
-                    <div class="skill-item"><i class="fab fa-css3-alt"></i> CSS3</div>
-                    <div class="skill-item"><i class="fab fa-js"></i> JavaScript</div>
-                    <div class="skill-item"><i class="fab fa-react"></i> React</div>
-                    <div class="skill-item"><i class="fab fa-git-alt"></i> Git</div>
-                    <div class="skill-item"><i class="fab fa-figma"></i> Figma</div>
-                </div>
-            </div>
+      <div class="container">
+        <div class="about-content reveal">
+          <h2 class="section-title">About <span class="accent">Me</span></h2>
+          <div class="about-text">
+            <p>
+              I am a passionate developer who loves to create "spicy" websites.
+              I believe that web design should not just be functional, but also
+              an experience. I focus on smooth animations, accessible design,
+              and performant code.
+            </p>
+            <p>
+              When I'm not coding, I'm probably exploring new design trends or
+              optimizing my workflow.
+            </p>
+          </div>
+          <div class="skills-grid">
+            <div class="skill-item"><i class="fab fa-html5"></i> HTML5</div>
+            <div class="skill-item"><i class="fab fa-css3-alt"></i> CSS3</div>
+            <div class="skill-item"><i class="fab fa-js"></i> JavaScript</div>
+            <div class="skill-item"><i class="fab fa-react"></i> React</div>
+            <div class="skill-item"><i class="fab fa-git-alt"></i> Git</div>
+            <div class="skill-item"><i class="fab fa-figma"></i> Figma</div>
+          </div>
         </div>
+      </div>
     </section>
 
     <section id="contact" class="contact-section">
-        <div class="container">
-            <div class="contact-wrapper reveal">
-                <h2 class="section-title">Get In <span class="accent">Touch</span></h2>
-                <p>Have a project in mind? Let's make it happen.</p>
-                <form class="contact-form" action="#" method="POST">
-                    <div class="form-group">
-                        <input type="text" placeholder="Name" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="email" placeholder="Email" required>
-                    </div>
-                    <div class="form-group">
-                        <textarea rows="5" placeholder="Message" required></textarea>
-                    </div>
-                    <button type="submit" class="btn-primary">Send Message</button>
-                </form>
+      <div class="container">
+        <div class="contact-wrapper reveal">
+          <h2 class="section-title">
+            Get In <span class="accent">Touch</span>
+          </h2>
+          <p>Have a project in mind? Let's make it happen.</p>
+          <form class="contact-form" action="#" method="POST">
+            <div class="form-group">
+              <input type="text" placeholder="Name" required />
             </div>
+            <div class="form-group">
+              <input type="email" placeholder="Email" required />
+            </div>
+            <div class="form-group">
+              <textarea rows="5" placeholder="Message" required></textarea>
+            </div>
+            <button type="submit" class="btn-primary">Send Message</button>
+          </form>
         </div>
+      </div>
     </section>
 
     <footer>
-        <div class="container">
-            <div class="footer-content">
-                <div class="logo">PORTFOLIO<span class="accent">.</span></div>
-                <div class="social-links">
-                    <a href="#"><i class="fab fa-github"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-linkedin"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                </div>
-                <p class="copyright">&copy; <span id="year"></span> Created with ❤️ by You.</p>
-            </div>
+      <div class="container">
+        <div class="footer-content">
+          <div class="logo">PORTFOLIO<span class="accent">.</span></div>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </div>
+          <p class="copyright">
+            &copy; <span id="year"></span> Created with ❤️ by You.
+          </p>
         </div>
+      </div>
     </footer>
 
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
