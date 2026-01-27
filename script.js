@@ -75,10 +75,20 @@ document.addEventListener('DOMContentLoaded', () => {
 
         if (images.length > 1) {
             setInterval(() => {
-                currentIdx = (currentIdx + 1) % images.length;
-                const offset = currentIdx * 100;
-                track.style.transform = `translateX(-${offset}%)`;
-            }, 2000); // 2 second swap
+                // Step 1: Add blur
+                track.classList.add('blurring');
+
+                setTimeout(() => {
+                    // Step 2: Slide and remove blur mid-transition
+                    currentIdx = (currentIdx + 1) % images.length;
+                    const offset = currentIdx * 100;
+                    track.style.transform = `translateX(-${offset}%)`;
+
+                    setTimeout(() => {
+                        track.classList.remove('blurring');
+                    }, 400); // Remove blur after slide starts
+                }, 300); // Wait for blur to fully apply
+            }, 3000); // 3 second cycle for better pacing
         }
     });
 });
