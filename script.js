@@ -56,7 +56,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Dynamic Year
     const yearSpan = document.getElementById('year');
-    if(yearSpan) {
+    if (yearSpan) {
         yearSpan.textContent = new Date().getFullYear();
     }
 
@@ -64,4 +64,21 @@ document.addEventListener('DOMContentLoaded', () => {
     // Note: CSS currently hides .nav-links on mobile. 
     // You would typically add a class to body or nav to show it.
     // For this simple portfolio, we'll keep it basic or add if requested.
+
+    // Project Image Auto-Slider
+    const sliders = document.querySelectorAll('.project-slider');
+
+    sliders.forEach(slider => {
+        const track = slider.querySelector('.slider-track');
+        const images = track.querySelectorAll('img');
+        let currentIdx = 0;
+
+        if (images.length > 1) {
+            setInterval(() => {
+                currentIdx = (currentIdx + 1) % images.length;
+                const offset = currentIdx * 100;
+                track.style.transform = `translateX(-${offset}%)`;
+            }, 2000); // 2 second swap
+        }
+    });
 });
